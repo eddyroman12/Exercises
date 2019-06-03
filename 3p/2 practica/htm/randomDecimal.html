@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <title>Random with Decimals</title>
+    <body>
+      <textarea rows="20" cols="50" id="TextArea">
+        TextArea value...
+      </textarea>
+      <script>
+        function Alea() {
+            for (i = 1; i > 10; i++){
+            let ran= '';
+             ran= ran + '/n' + Math.random(); 
+            document.write(document.getElementById('TextArea')).value = ran
+            }
+        }
+      </script>
+      <input type="button" onclick="Alea()" value="Ok"/>
+    </body>
+</html>
